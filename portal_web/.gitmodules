@@ -1,0 +1,6 @@
+[submodule "packages/shared/@commons"]
+	path = packages/shared/@commons
+	url = git@github.com:wesleymonaro/jjsys_commons.git
+[submodule "packages/main/@commons"]
+	path = packages/main/@commons
+	url = git@github.com:wesleymonaro/jjsys_commons.git

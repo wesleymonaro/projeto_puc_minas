@@ -1,0 +1,23 @@
+{
+  "name": "migrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrations:run": "tsc && npx typeorm migration:run",
+    "migrations:revert": "npx typeorm migration:revert",
+    "submodules:update": "git submodule foreach git pull origin master"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mysql2": "^2.3.3",
+    "typeorm": "0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

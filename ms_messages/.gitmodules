@@ -1,0 +1,6 @@
+[submodule "@commons"]
+	path = @commons
+	url = git@github.com:wesleymonaro/jjsys_commons.git
+[submodule "@config"]
+	path = @config
+	url = git@github.com:wesleymonaro/jjsys_config.git

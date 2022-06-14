@@ -1,0 +1,21 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^17.0.23"
+  },
+  "dependencies": {
+    "aws-amplify": "^4.3.19",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  }
+}

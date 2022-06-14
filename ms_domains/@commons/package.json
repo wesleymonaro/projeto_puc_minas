@@ -1,0 +1,28 @@
+{
+  "name": "types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleymonaro/bjj_types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleymonaro/bjj_types/issues"
+  },
+  "homepage": "https://github.com/wesleymonaro/bjj_types#readme",
+  "dependencies": {
+    "@nestjs/passport": "^8.2.1",
+    "aws-amplify": "^4.3.19",
+    "jwks-rsa": "^2.0.5",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "typeorm": "^0.3.4"
+  }
+}
